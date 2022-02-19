@@ -24,11 +24,11 @@ executable Real
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    other-modules:    Helpers
+    other-modules:    Helpers, User, Url, Lists
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.14.3.0
+    build-depends:    base ^>=4.14.3.0, MissingH
     hs-source-dirs:   app
                       app/Utils
     default-language: Haskell2010
